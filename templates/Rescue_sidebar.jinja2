@@ -1,0 +1,6 @@
+<div class="row-fluid print-control"  data-bind="visible: loginState.isUser">
+  <button class="btn btn-primary span4" data-bind="click: print, enable: enablePrint, css: {'btn-danger': isPaused()}, attr: {title: titlePrintButton}" id="job_rescue">
+    <i class="icon-white" data-bind="css: {'icon-print': !isPaused(), 'icon-undo': isPaused()}"></i>
+    <span data-bind="text: (isPaused() ? '{{ _('Rescue') }}' : '{{ _('Rescue') }}')">{{ _('Rescue') }}</span></button>
+
+</div>

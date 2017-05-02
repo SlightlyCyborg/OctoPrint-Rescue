@@ -1,0 +1,2 @@
+* Strategy
+** Use octoprint.comm.protocol.gcode.sent to cache the last code sent
